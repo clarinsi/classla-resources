@@ -1,0 +1,451 @@
+{
+  "bg": {
+    "tokenize": {
+      "btb": {
+        "library": "reldi",
+        "type": "standard"
+      }
+    },
+    "depparse": {
+      "btb": {
+        "link": "11356/1328/BTB_ud",
+        "md5": "ddf666ab61c253ff8b2a92945524cd2e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "btb"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "btb": {
+        "link": "11356/1353/BTB_lemmatizer.pt",
+        "md5": "bac7e5171fe91ab215d735470375afa7"
+      }
+    },
+    "pos": {
+      "btb": {
+        "link": "11356/1326/BTB",
+        "md5": "e1629e9a81dcef625c9b99d81d9fae93",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "btb"
+          }
+        ]
+      }
+    },
+    "ner": {
+      "btb": {
+        "link": "11356/1329/BTB",
+        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+      }
+    },
+    "pretrain": {
+      "btb": {
+        "link": "11356/1326/BTB.pretrain.pt",
+        "md5": "c5453cea8e1c1a932d9e97823914310e"
+      }
+    },
+    "default_processors": {
+      "lemma": "btb",
+      "pos": "btb",
+      "depparse": "btb",
+      "ner": "btb"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "btb"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "btb"
+        }
+      ]
+    },
+    "default_md5": "c02265cf6afe09f0e189d2c297cd777a",
+    "lang_name": "Bulgarian"
+  },
+  "bulgarian": {
+    "alias": "bg"
+  },
+  "hr": {
+    "tokenize": {
+      "hr500k": {
+        "library": "reldi",
+        "type": "standard"
+      },
+      "nonstandard": {
+        "library": "reldi",
+        "type": "nonstandard"
+      }
+    },
+    "depparse": {
+      "hr500k": {
+        "link": "11356/1259/hr500k_ud",
+        "md5": "e51b4f62d5256288265c7916815e4679",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "hr500k"
+          }
+        ]
+      },
+      "nonstandard": {
+        "duplicate": "hr500k"
+      }
+    },
+    "lemma": {
+      "hr500k": {
+        "link": "11356/1357/hr500k_hrLex_lemmatizer.pt",
+        "md5": "c7b6f4006d246d17dcd8747ca61fd58a"
+      },
+      "nonstandard": {
+        "link": "11356/1352/hr_all_hrLex_lemmatizer.pt",
+        "md5": "c7b6f4006d246d17dcd8747ca61fd58a"
+      }
+    },
+    "pos": {
+      "hr500k": {
+        "link": "11356/1348/hr500k",
+        "md5": "8e84f5c8ebe38d3af95cb621e5452624",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "hr500k"
+          }
+        ]
+      },
+      "nonstandard": {
+        "link": "11356/1331/hr_nstd",
+        "md5": "8e84f5c8ebe38d3af95cb621e5452624",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "hr500k"
+          }
+        ]
+      }
+    },
+    "ner": {
+      "hr500k": {
+        "link": "11356/1322/hr500k",
+        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+      },
+      "nonstandard": {
+        "link": "11356/1340/hr_nstd",
+        "md5": "e60736a6b405608361d42b995b22ba24"
+      }
+    },
+    "pretrain": {
+      "hr500k": {
+        "link": "11356/1348/hr500k.pretrain.pt",
+        "md5": "7b8d4ebb439a5323e897a87507298c6e"
+      }
+    },
+    "default_processors": {
+      "lemma": "hr500k",
+      "pos": "hr500k",
+      "depparse": "hr500k",
+      "ner": "hr500k"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "hr500k"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "hr500k"
+        }
+      ]
+    },
+    "default_md5": "013471e1251db03b1c8c7529e611b801",
+    "lang_name": "Croatian"
+  },
+  "croatian": {
+    "alias": "hr"
+  },
+  "mk": {
+    "tokenize": {
+      "1984": {
+        "library": "reldi",
+        "type": "standard"
+      }
+    },
+    "lemma": {
+      "1984": {
+        "link": "11356/1374/mk_lemmatizer.pt",
+        "md5": "bac7e5171fe91ab215d735470375afa7"
+      }
+    },
+    "pos": {
+      "1984": {
+        "link": "11356/1373/mk",
+        "md5": "e1629e9a81dcef625c9b99d81d9fae93",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "btb"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "1984": {
+        "link": "11356/1373/mk.pretrain.pt",
+        "md5": "c5453cea8e1c1a932d9e97823914310e"
+      }
+    },
+    "default_processors": {
+      "lemma": "1984",
+      "pos": "1984"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "btb"
+        }
+      ]
+    },
+    "default_md5": "c02265cf6afe09f0e189d2c297cd777a",
+    "lang_name": "Bulgarian"
+  },
+  "macedonian": {
+    "alias": "mk"
+  },
+  "sl": {
+    "tokenize": {
+      "ssj": {
+        "library": "obeliks",
+        "type": "standard"
+      },
+      "ssj_jos": {
+        "library": "obeliks",
+        "type": "standard"
+      },
+      "nonstandard": {
+        "library": "reldi",
+        "type": "nonstandard"
+      }
+    },
+    "depparse": {
+      "ssj": {
+        "link": "11356/1258/ssj500k_ud",
+        "md5": "1be97ba03ebe1501a2ee073ae27330e5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ssj"
+          }
+        ]
+      },
+      "nonstandard": {
+        "duplicate": "ssj"
+      },
+      "ssj_jos": {
+        "link": "11356/1325/ssj500k_jos",
+        "md5": "c26b1edce00ef9fe2de4e352266b13e1",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ssj"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "ssj": {
+        "link": "11356/1354/ssj500k_Sloleks_lemmatizer.pt",
+        "md5": "b78b2619b63dc2e276be2ac61fdcc5d2"
+      },
+      "nonstandard": {
+        "link": "11356/1350/sl_all_Sloleks_lemmatizer.pt",
+        "md5": "e61a08002d7b4ed32989f5d860508121"
+      },
+      "ssj_jos": {
+        "duplicate": "ssj"
+      }
+    },
+    "pos": {
+      "ssj": {
+        "link": "11356/1312/ssj500k",
+        "md5": "e5f0b7f5735dedc57873c414ddd6da47",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ssj"
+          }
+        ]
+      },
+      "nonstandard": {
+        "link": "11356/1337/sl_nstd",
+        "md5": "2b1f6ca6521407b98689fc2a5b0cd626",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ssj"
+          }
+        ]
+      },
+      "ssj_jos": {
+        "duplicate": "ssj"
+      }
+    },
+    "ner": {
+      "ssj": {
+        "link": "11356/1321/ssj500k",
+        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+      },
+      "nonstandard": {
+        "link": "11356/1339/sl_nstd",
+        "md5": "e60736a6b405608361d42b995b22ba24"
+      },
+      "ssj_jos": {
+        "duplicate": "ssj"
+      }
+    },
+    "pretrain": {
+      "ssj": {
+        "link": "11356/1312/ssj500k.pretrain.pt",
+        "md5": "748e195b2fac1eb33e5f482b337e88bd"
+      }
+    },
+    "default_processors": {
+      "tokenize": "reldi",
+      "lemma": "ssj",
+      "pos": "ssj",
+      "depparse": "ssj",
+      "ner": "ssj"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "ssj"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "ssj"
+        }
+      ]
+    },
+    "default_md5": "6a0f222de974ec1e0e69474a57942bc9",
+    "lang_name": "Slovenian"
+  },
+  "slovenian": {
+    "alias": "sl"
+  },
+  "sr": {
+    "tokenize": {
+      "set": {
+        "library": "reldi",
+        "type": "standard"
+      },
+      "nonstandard": {
+        "library": "reldi",
+        "type": "nonstandard"
+      }
+    },
+    "depparse": {
+      "set": {
+        "link": "11356/1260/SETimes.SR_ud",
+        "md5": "d33b7794836814ef5309671b73f89c6f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "set"
+          }
+        ]
+      },
+      "nonstandard": {
+        "duplicate": "ssj"
+      }
+    },
+    "lemma": {
+      "set": {
+        "link": "11356/1355/SETimes.SR_srLex_lemmatizer.pt",
+        "md5": "23e5bd97d978370c7f2d7310ab69a712"
+      },
+      "nonstandard": {
+        "link": "11356/1351/sr_all_srLex_lemmatizer.pt",
+        "md5": "23e5bd97d978370c7f2d7310ab69a712"
+      }
+    },
+    "pos": {
+      "set": {
+        "link": "11356/1349/SETimes.SR",
+        "md5": "03059e84420c7edfcc194ae7a2c808ca",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "set"
+          }
+        ]
+      },
+      "nonstandard": {
+        "link": "11356/1332/sr_nstd",
+        "md5": "03059e84420c7edfcc194ae7a2c808ca",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "set"
+          }
+        ]
+      }
+    },
+    "ner": {
+      "set": {
+        "link": "11356/1323/SETimes.SR",
+        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+      },
+      "nonstandard": {
+        "link": "11356/1341/sr_nstd",
+        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+      }
+    },
+    "pretrain": {
+      "set": {
+        "link": "11356/1349/SETimes.SR.pretrain.pt",
+        "md5": "7a346f9e56f0fc60386efe6a361eaac6"
+      }
+    },
+    "default_processors": {
+      "lemma": "set",
+      "pos": "set",
+      "depparse": "set",
+      "ner": "set"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "set"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "set"
+        }
+      ]
+    },
+    "default_md5": "7f34f4b18320570477b8867588dddcaa",
+    "lang_name": "Serbian"
+  },
+  "serbian": {
+    "alias": "sr"
+  },
+  "url": "https://www.clarin.si/repository/xmlui/bitstream/handle"
+}
