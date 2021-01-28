@@ -194,7 +194,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "btb"
+            "package": "1984"
           }
         ]
       }
