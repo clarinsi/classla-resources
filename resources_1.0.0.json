@@ -9,7 +9,7 @@
     "depparse": {
       "btb": {
         "link": "11356/1328/BTB_ud",
-        "md5": "ddf666ab61c253ff8b2a92945524cd2e",
+        "md5": "b0198a347315e47c356bd7f8af68b567",
         "dependencies": [
           {
             "model": "pretrain",
@@ -21,13 +21,13 @@
     "lemma": {
       "btb": {
         "link": "11356/1353/BTB_lemmatizer.pt",
-        "md5": "bac7e5171fe91ab215d735470375afa7"
+        "md5": "6b2761063a0b959a742f8bfe29c808f8"
       }
     },
     "pos": {
       "btb": {
         "link": "11356/1326/BTB",
-        "md5": "e1629e9a81dcef625c9b99d81d9fae93",
+        "md5": "4c208db4c106990c570004c07bb13be2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -39,7 +39,7 @@
     "ner": {
       "btb": {
         "link": "11356/1329/BTB",
-        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+        "md5": "7fb1b246e0ebb3cad3126357bd5c532d"
       }
     },
     "pretrain": {
@@ -88,7 +88,7 @@
     "depparse": {
       "hr500k": {
         "link": "11356/1259/hr500k_ud",
-        "md5": "e51b4f62d5256288265c7916815e4679",
+        "md5": "e6f009541f44ab05e4f0d08ae0c86092",
         "dependencies": [
           {
             "model": "pretrain",
@@ -103,7 +103,7 @@
     "lemma": {
       "hr500k": {
         "link": "11356/1357/hr500k_hrLex_lemmatizer.pt",
-        "md5": "c7b6f4006d246d17dcd8747ca61fd58a"
+        "md5": "f2cd44a3a39ca7eedb35f352678ada0b"
       },
       "nonstandard": {
         "link": "11356/1352/hr_all_hrLex_lemmatizer.pt",
@@ -113,7 +113,7 @@
     "pos": {
       "hr500k": {
         "link": "11356/1348/hr500k",
-        "md5": "8e84f5c8ebe38d3af95cb621e5452624",
+        "md5": "61e7e97c217ff5063eebaf7cb0b6b86d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -135,7 +135,7 @@
     "ner": {
       "hr500k": {
         "link": "11356/1322/hr500k",
-        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+        "md5": "82b21451ad9ab2b04787b6989824826a"
       },
       "nonstandard": {
         "link": "11356/1340/hr_nstd",
@@ -184,13 +184,13 @@
     "lemma": {
       "1984": {
         "link": "11356/1374/mk_lemmatizer.pt",
-        "md5": "bac7e5171fe91ab215d735470375afa7"
+        "md5": "db8d4904e49862b642fa5e5f7f43cdba"
       }
     },
     "pos": {
       "1984": {
         "link": "11356/1373/mk",
-        "md5": "e1629e9a81dcef625c9b99d81d9fae93",
+        "md5": "10e5032f17ad7f68ccd6b6fce72ba036",
         "dependencies": [
           {
             "model": "pretrain",
@@ -202,7 +202,7 @@
     "pretrain": {
       "1984": {
         "link": "11356/1373/mk.pretrain.pt",
-        "md5": "c5453cea8e1c1a932d9e97823914310e"
+        "md5": "51958a0e8d7c4c3d0c71f87e7a6ea25a"
       }
     },
     "default_processors": {
@@ -361,7 +361,7 @@
     "depparse": {
       "set": {
         "link": "11356/1260/SETimes.SR_ud",
-        "md5": "d33b7794836814ef5309671b73f89c6f",
+        "md5": "631f720314f48e9b4ac9d6e7307577f3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -376,7 +376,7 @@
     "lemma": {
       "set": {
         "link": "11356/1355/SETimes.SR_srLex_lemmatizer.pt",
-        "md5": "23e5bd97d978370c7f2d7310ab69a712"
+        "md5": "34ce317bf92b2dcedecd66bbe3faeaad"
       },
       "nonstandard": {
         "link": "11356/1351/sr_all_srLex_lemmatizer.pt",
@@ -386,7 +386,7 @@
     "pos": {
       "set": {
         "link": "11356/1349/SETimes.SR",
-        "md5": "03059e84420c7edfcc194ae7a2c808ca",
+        "md5": "03da180987d63489e1181aa4570da364",
         "dependencies": [
           {
             "model": "pretrain",
@@ -408,7 +408,7 @@
     "ner": {
       "set": {
         "link": "11356/1323/SETimes.SR",
-        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+        "md5": "2079b820984efe7fed067c6513075f0a"
       },
       "nonstandard": {
         "link": "11356/1341/sr_nstd",
