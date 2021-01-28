@@ -45,7 +45,7 @@
     "pretrain": {
       "btb": {
         "link": "11356/1326/BTB.pretrain.pt",
-        "md5": "c5453cea8e1c1a932d9e97823914310e"
+        "md5": "19a92c25ef4004aa416d47a463fa1531"
       }
     },
     "default_processors": {
@@ -145,7 +145,7 @@
     "pretrain": {
       "hr500k": {
         "link": "11356/1348/hr500k.pretrain.pt",
-        "md5": "7b8d4ebb439a5323e897a87507298c6e"
+        "md5": "fbce84682795cb0bfad7ed25b7817bbb"
       }
     },
     "default_processors": {
@@ -213,12 +213,12 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "btb"
+          "package": "1984"
         }
       ]
     },
     "default_md5": "c02265cf6afe09f0e189d2c297cd777a",
-    "lang_name": "Bulgarian"
+    "lang_name": "Macedonian"
   },
   "macedonian": {
     "alias": "mk"
@@ -317,7 +317,7 @@
     "pretrain": {
       "ssj": {
         "link": "11356/1312/ssj500k.pretrain.pt",
-        "md5": "748e195b2fac1eb33e5f482b337e88bd"
+        "md5": "26a94cb1aa9a0ae2f33ce4070577e356"
       }
     },
     "default_processors": {
@@ -418,7 +418,7 @@
     "pretrain": {
       "set": {
         "link": "11356/1349/SETimes.SR.pretrain.pt",
-        "md5": "7a346f9e56f0fc60386efe6a361eaac6"
+        "md5": "66f773c8990f536b789cf2c8dba6b04f"
       }
     },
     "default_processors": {
