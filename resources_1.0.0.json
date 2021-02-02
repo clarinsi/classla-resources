@@ -26,7 +26,7 @@
     },
     "pos": {
       "btb": {
-        "link": "11356/1326/BTB",
+        "link": "11356/1394/BTB",
         "md5": "4c208db4c106990c570004c07bb13be2",
         "dependencies": [
           {
@@ -44,7 +44,7 @@
     },
     "pretrain": {
       "btb": {
-        "link": "11356/1326/BTB.pretrain.pt",
+        "link": "11356/1394/BTB.pretrain.pt",
         "md5": "19a92c25ef4004aa416d47a463fa1531"
       }
     },
@@ -112,7 +112,7 @@
     },
     "pos": {
       "hr500k": {
-        "link": "11356/1348/hr500k",
+        "link": "11356/1393/hr500k",
         "md5": "61e7e97c217ff5063eebaf7cb0b6b86d",
         "dependencies": [
           {
@@ -144,7 +144,7 @@
     },
     "pretrain": {
       "hr500k": {
-        "link": "11356/1348/hr500k.pretrain.pt",
+        "link": "11356/1393/hr500k.pretrain.pt",
         "md5": "fbce84682795cb0bfad7ed25b7817bbb"
       }
     },
@@ -189,7 +189,7 @@
     },
     "pos": {
       "1984": {
-        "link": "11356/1373/mk",
+        "link": "11356/1395/mk",
         "md5": "10e5032f17ad7f68ccd6b6fce72ba036",
         "dependencies": [
           {
@@ -201,8 +201,8 @@
     },
     "pretrain": {
       "1984": {
-        "link": "11356/1373/mk.pretrain.pt",
-        "md5": "51958a0e8d7c4c3d0c71f87e7a6ea25a"
+        "link": "11356/1395/mk.pretrain.pt",
+        "md5": "9011c8159927ac47b77f46d8ec92e1c5"
       }
     },
     "default_processors": {
@@ -316,7 +316,7 @@
     },
     "pretrain": {
       "ssj": {
-        "link": "11356/1312/ssj500k.pretrain.pt",
+        "link": "11356/1391/ssj500k.pretrain.pt",
         "md5": "26a94cb1aa9a0ae2f33ce4070577e356"
       }
     },
@@ -385,7 +385,7 @@
     },
     "pos": {
       "set": {
-        "link": "11356/1349/SETimes.SR",
+        "link": "11356/1392/SETimes.SR",
         "md5": "03da180987d63489e1181aa4570da364",
         "dependencies": [
           {
@@ -417,7 +417,7 @@
     },
     "pretrain": {
       "set": {
-        "link": "11356/1349/SETimes.SR.pretrain.pt",
+        "link": "11356/1392/SETimes.SR.pretrain.pt",
         "md5": "66f773c8990f536b789cf2c8dba6b04f"
       }
     },
