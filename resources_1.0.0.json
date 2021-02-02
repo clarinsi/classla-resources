@@ -107,7 +107,7 @@
       },
       "nonstandard": {
         "link": "11356/1352/hr_all_hrLex_lemmatizer.pt",
-        "md5": "c7b6f4006d246d17dcd8747ca61fd58a"
+        "md5": "af32f6197514048b3f4ae60cc0636c36"
       }
     },
     "pos": {
@@ -123,7 +123,7 @@
       },
       "nonstandard": {
         "link": "11356/1331/hr_nstd",
-        "md5": "8e84f5c8ebe38d3af95cb621e5452624",
+        "md5": "638dfd4a13fbc62ffa24495a76dbf256",
         "dependencies": [
           {
             "model": "pretrain",
@@ -139,7 +139,7 @@
       },
       "nonstandard": {
         "link": "11356/1340/hr_nstd",
-        "md5": "e60736a6b405608361d42b995b22ba24"
+        "md5": "10f00c7aec9d0aef8fdc8f88a698e50e"
       }
     },
     "pretrain": {
@@ -278,7 +278,7 @@
     },
     "pos": {
       "ssj": {
-        "link": "11356/1312/ssj500k",
+        "link": "11356/1391/ssj500k",
         "md5": "e5f0b7f5735dedc57873c414ddd6da47",
         "dependencies": [
           {
@@ -317,7 +317,7 @@
     "pretrain": {
       "ssj": {
         "link": "11356/1391/ssj500k.pretrain.pt",
-        "md5": "26a94cb1aa9a0ae2f33ce4070577e356"
+        "md5": "6911b40be0b26183eb2a55be851fd0fe"
       }
     },
     "default_processors": {
@@ -380,7 +380,7 @@
       },
       "nonstandard": {
         "link": "11356/1351/sr_all_srLex_lemmatizer.pt",
-        "md5": "23e5bd97d978370c7f2d7310ab69a712"
+        "md5": "29895703bf35489f265b97c17092ec20"
       }
     },
     "pos": {
@@ -396,7 +396,7 @@
       },
       "nonstandard": {
         "link": "11356/1332/sr_nstd",
-        "md5": "03059e84420c7edfcc194ae7a2c808ca",
+        "md5": "0e2581d9b85fba76e6707733abc18598",
         "dependencies": [
           {
             "model": "pretrain",
@@ -412,7 +412,7 @@
       },
       "nonstandard": {
         "link": "11356/1341/sr_nstd",
-        "md5": "3f5003e050962523985c2f90ef5cc3c8"
+        "md5": "abce33574b568e5822c902941f237c58"
       }
     },
     "pretrain": {
