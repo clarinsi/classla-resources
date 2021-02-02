@@ -49,6 +49,7 @@
       }
     },
     "default_processors": {
+      "tokenize": "btb",
       "lemma": "btb",
       "pos": "btb",
       "depparse": "btb",
@@ -149,6 +150,7 @@
       }
     },
     "default_processors": {
+      "tokenize": "hr500k",
       "lemma": "hr500k",
       "pos": "hr500k",
       "depparse": "hr500k",
@@ -206,6 +208,7 @@
       }
     },
     "default_processors": {
+      "tokenize": "1984",
       "lemma": "1984",
       "pos": "1984"
     },
@@ -321,7 +324,7 @@
       }
     },
     "default_processors": {
-      "tokenize": "reldi",
+      "tokenize": "ssj",
       "lemma": "ssj",
       "pos": "ssj",
       "depparse": "ssj",
@@ -422,6 +425,7 @@
       }
     },
     "default_processors": {
+      "tokenize": "set",
       "lemma": "set",
       "pos": "set",
       "depparse": "set",
