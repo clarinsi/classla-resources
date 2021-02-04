@@ -1,71 +1,71 @@
 {
   "bg": {
     "tokenize": {
-      "btb": {
+      "standard": {
         "library": "reldi",
         "type": "standard"
       }
     },
     "depparse": {
-      "btb": {
+      "standard": {
         "link": "11356/1328/BTB_ud",
         "md5": "b0198a347315e47c356bd7f8af68b567",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "btb"
+            "package": "standard"
           }
         ]
       }
     },
     "lemma": {
-      "btb": {
+      "standard": {
         "link": "11356/1353/BTB_lemmatizer.pt",
         "md5": "6b2761063a0b959a742f8bfe29c808f8"
       }
     },
     "pos": {
-      "btb": {
+      "standard": {
         "link": "11356/1394/BTB",
         "md5": "4c208db4c106990c570004c07bb13be2",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "btb"
+            "package": "standard"
           }
         ]
       }
     },
     "ner": {
-      "btb": {
+      "standard": {
         "link": "11356/1329/BTB",
         "md5": "7fb1b246e0ebb3cad3126357bd5c532d"
       }
     },
     "pretrain": {
-      "btb": {
+      "standard": {
         "link": "11356/1394/BTB.pretrain.pt",
         "md5": "19a92c25ef4004aa416d47a463fa1531"
       }
     },
     "default_processors": {
-      "tokenize": "btb",
-      "lemma": "btb",
-      "pos": "btb",
-      "depparse": "btb",
-      "ner": "btb"
+      "tokenize": "standard",
+      "lemma": "standard",
+      "pos": "standard",
+      "depparse": "standard",
+      "ner": "standard"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "btb"
+          "package": "standard"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "btb"
+          "package": "standard"
         }
       ]
     },
@@ -77,7 +77,7 @@
   },
   "hr": {
     "tokenize": {
-      "hr500k": {
+      "standard": {
         "library": "reldi",
         "type": "standard"
       },
@@ -87,22 +87,22 @@
       }
     },
     "depparse": {
-      "hr500k": {
+      "standard": {
         "link": "11356/1259/hr500k_ud",
         "md5": "e6f009541f44ab05e4f0d08ae0c86092",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "hr500k"
+            "package": "standard"
           }
         ]
       },
       "nonstandard": {
-        "duplicate": "hr500k"
+        "duplicate": "standard"
       }
     },
     "lemma": {
-      "hr500k": {
+      "standard": {
         "link": "11356/1357/hr500k_hrLex_lemmatizer.pt",
         "md5": "f2cd44a3a39ca7eedb35f352678ada0b"
       },
@@ -112,13 +112,13 @@
       }
     },
     "pos": {
-      "hr500k": {
+      "standard": {
         "link": "11356/1393/hr500k",
         "md5": "61e7e97c217ff5063eebaf7cb0b6b86d",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "hr500k"
+            "package": "standard"
           }
         ]
       },
@@ -128,13 +128,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "hr500k"
+            "package": "standard"
           }
         ]
       }
     },
     "ner": {
-      "hr500k": {
+      "standard": {
         "link": "11356/1322/hr500k",
         "md5": "82b21451ad9ab2b04787b6989824826a"
       },
@@ -144,29 +144,29 @@
       }
     },
     "pretrain": {
-      "hr500k": {
+      "standard": {
         "link": "11356/1393/hr500k.pretrain.pt",
         "md5": "fbce84682795cb0bfad7ed25b7817bbb"
       }
     },
     "default_processors": {
-      "tokenize": "hr500k",
-      "lemma": "hr500k",
-      "pos": "hr500k",
-      "depparse": "hr500k",
-      "ner": "hr500k"
+      "tokenize": "standard",
+      "lemma": "standard",
+      "pos": "standard",
+      "depparse": "standard",
+      "ner": "standard"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "hr500k"
+          "package": "standard"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "hr500k"
+          "package": "standard"
         }
       ]
     },
@@ -178,45 +178,45 @@
   },
   "mk": {
     "tokenize": {
-      "1984": {
+      "standard": {
         "library": "reldi",
         "type": "standard"
       }
     },
     "lemma": {
-      "1984": {
+      "standard": {
         "link": "11356/1374/mk_lemmatizer.pt",
         "md5": "db8d4904e49862b642fa5e5f7f43cdba"
       }
     },
     "pos": {
-      "1984": {
+      "standard": {
         "link": "11356/1395/mk",
         "md5": "10e5032f17ad7f68ccd6b6fce72ba036",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "1984"
+            "package": "standard"
           }
         ]
       }
     },
     "pretrain": {
-      "1984": {
+      "standard": {
         "link": "11356/1395/mk.pretrain.pt",
         "md5": "9011c8159927ac47b77f46d8ec92e1c5"
       }
     },
     "default_processors": {
-      "tokenize": "1984",
-      "lemma": "1984",
-      "pos": "1984"
+      "tokenize": "standard",
+      "lemma": "standard",
+      "pos": "standard"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "1984"
+          "package": "standard"
         }
       ]
     },
@@ -228,11 +228,11 @@
   },
   "sl": {
     "tokenize": {
-      "ssj": {
+      "standard": {
         "library": "obeliks",
         "type": "standard"
       },
-      "ssj_jos": {
+      "standard_jos": {
         "library": "obeliks",
         "type": "standard"
       },
@@ -242,32 +242,32 @@
       }
     },
     "depparse": {
-      "ssj": {
+      "standard": {
         "link": "11356/1258/ssj500k_ud",
         "md5": "1be97ba03ebe1501a2ee073ae27330e5",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ssj"
+            "package": "standard"
           }
         ]
       },
       "nonstandard": {
-        "duplicate": "ssj"
+        "duplicate": "standard"
       },
-      "ssj_jos": {
+      "standard_jos": {
         "link": "11356/1325/ssj500k_jos",
         "md5": "c26b1edce00ef9fe2de4e352266b13e1",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ssj"
+            "package": "standard"
           }
         ]
       }
     },
     "lemma": {
-      "ssj": {
+      "standard": {
         "link": "11356/1354/ssj500k_Sloleks_lemmatizer.pt",
         "md5": "b78b2619b63dc2e276be2ac61fdcc5d2"
       },
@@ -275,18 +275,18 @@
         "link": "11356/1350/sl_all_Sloleks_lemmatizer.pt",
         "md5": "e61a08002d7b4ed32989f5d860508121"
       },
-      "ssj_jos": {
-        "duplicate": "ssj"
+      "standard_jos": {
+        "duplicate": "standard"
       }
     },
     "pos": {
-      "ssj": {
+      "standard": {
         "link": "11356/1391/ssj500k",
         "md5": "e5f0b7f5735dedc57873c414ddd6da47",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ssj"
+            "package": "standard"
           }
         ]
       },
@@ -296,16 +296,16 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ssj"
+            "package": "standard"
           }
         ]
       },
-      "ssj_jos": {
-        "duplicate": "ssj"
+      "standard_jos": {
+        "duplicate": "standard"
       }
     },
     "ner": {
-      "ssj": {
+      "standard": {
         "link": "11356/1321/ssj500k",
         "md5": "3f5003e050962523985c2f90ef5cc3c8"
       },
@@ -313,34 +313,34 @@
         "link": "11356/1339/sl_nstd",
         "md5": "e60736a6b405608361d42b995b22ba24"
       },
-      "ssj_jos": {
-        "duplicate": "ssj"
+      "standard_jos": {
+        "duplicate": "standard"
       }
     },
     "pretrain": {
-      "ssj": {
+      "standard": {
         "link": "11356/1391/ssj500k.pretrain.pt",
         "md5": "6911b40be0b26183eb2a55be851fd0fe"
       }
     },
     "default_processors": {
-      "tokenize": "ssj",
-      "lemma": "ssj",
-      "pos": "ssj",
-      "depparse": "ssj",
-      "ner": "ssj"
+      "tokenize": "standard",
+      "lemma": "standard",
+      "pos": "standard",
+      "depparse": "standard",
+      "ner": "standard"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "ssj"
+          "package": "standard"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "ssj"
+          "package": "standard"
         }
       ]
     },
@@ -352,7 +352,7 @@
   },
   "sr": {
     "tokenize": {
-      "set": {
+      "standard": {
         "library": "reldi",
         "type": "standard"
       },
@@ -362,22 +362,22 @@
       }
     },
     "depparse": {
-      "set": {
+      "standard": {
         "link": "11356/1260/SETimes.SR_ud",
         "md5": "631f720314f48e9b4ac9d6e7307577f3",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "set"
+            "package": "standard"
           }
         ]
       },
       "nonstandard": {
-        "duplicate": "ssj"
+        "duplicate": "standard"
       }
     },
     "lemma": {
-      "set": {
+      "standard": {
         "link": "11356/1355/SETimes.SR_srLex_lemmatizer.pt",
         "md5": "34ce317bf92b2dcedecd66bbe3faeaad"
       },
@@ -387,13 +387,13 @@
       }
     },
     "pos": {
-      "set": {
+      "standard": {
         "link": "11356/1392/SETimes.SR",
         "md5": "03da180987d63489e1181aa4570da364",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "set"
+            "package": "standard"
           }
         ]
       },
@@ -403,13 +403,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "set"
+            "package": "standard"
           }
         ]
       }
     },
     "ner": {
-      "set": {
+      "standard": {
         "link": "11356/1323/SETimes.SR",
         "md5": "2079b820984efe7fed067c6513075f0a"
       },
@@ -419,29 +419,29 @@
       }
     },
     "pretrain": {
-      "set": {
+      "standard": {
         "link": "11356/1392/SETimes.SR.pretrain.pt",
         "md5": "66f773c8990f536b789cf2c8dba6b04f"
       }
     },
     "default_processors": {
-      "tokenize": "set",
-      "lemma": "set",
-      "pos": "set",
-      "depparse": "set",
-      "ner": "set"
+      "tokenize": "standard",
+      "lemma": "standard",
+      "pos": "standard",
+      "depparse": "standard",
+      "ner": "standard"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "set"
+          "package": "standard"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "set"
+          "package": "standard"
         }
       ]
     },
