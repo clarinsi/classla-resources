@@ -268,8 +268,8 @@
     },
     "lemma": {
       "standard": {
-        "link": "11356/1354/ssj500k_Sloleks_lemmatizer.pt",
-        "md5": "b78b2619b63dc2e276be2ac61fdcc5d2"
+        "link": "11356/1412/ssj500k_Sloleks_lemmatizer.pt",
+        "md5": "a054aebe899f1b702fb914e48017f293"
       },
       "nonstandard": {
         "link": "11356/1350/sl_all_Sloleks_lemmatizer.pt",
