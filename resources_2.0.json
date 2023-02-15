@@ -331,7 +331,7 @@
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1767/sl_ssj.pretrain.pt",
+        "link": "11356/1769/sl_ssj.pretrain.pt",
         "md5": "016d32cab0fce4a0dec699de8ef3b13a"
       }
     },
