@@ -8,8 +8,8 @@
     },
     "depparse": {
       "standard": {
-        "link": "11356/1328/BTB_ud",
-        "md5": "b0198a347315e47c356bd7f8af68b567",
+        "link": "11356/1851/baseline_depparse.zip",
+        "md5": "f97f7b487fbd20b875b84dfee4ac7b55",
         "dependencies": [
           {
             "model": "pretrain",
@@ -20,14 +20,14 @@
     },
     "lemma": {
       "standard": {
-        "link": "11356/1353/BTB_lemmatizer.pt",
-        "md5": "6b2761063a0b959a742f8bfe29c808f8"
+        "link": "11356/1850/baseline_lemma_lemmatizer.zip",
+        "md5": "c0bfebff83c2fe73dc612ac62877c511"
       }
     },
     "pos": {
       "standard": {
-        "link": "11356/1394/BTB",
-        "md5": "4c208db4c106990c570004c07bb13be2",
+        "link": "11356/1849/baseline_pos.zip",
+        "md5": "6e022040b4949bf7dbc7953db39ea187",
         "dependencies": [
           {
             "model": "pretrain",
@@ -44,8 +44,8 @@
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1394/BTB.pretrain.pt",
-        "md5": "19a92c25ef4004aa416d47a463fa1531"
+        "link": "11356/1849/bg_btb.pretrain.zip",
+        "md5": "1494c4c413871eb8de3e900effb65286"
       }
     },
     "default_processors": {
@@ -84,12 +84,15 @@
       "nonstandard": {
         "library": "reldi",
         "type": "nonstandard"
+      },
+      "web": {
+        "duplicate": "standard"
       }
     },
     "depparse": {
       "standard": {
-        "link": "11356/1259/hr500k_ud",
-        "md5": "e6f009541f44ab05e4f0d08ae0c86092",
+        "link": "11356/1836/baseline_depparse.zip",
+        "md5": "2468485c0b7a4963a24afcd1ae01b939",
         "dependencies": [
           {
             "model": "pretrain",
@@ -99,22 +102,28 @@
       },
       "nonstandard": {
         "duplicate": "standard"
+      },
+      "web": {
+        "duplicate": "standard"
       }
     },
     "lemma": {
       "standard": {
-        "link": "11356/1357/hr500k_hrLex_lemmatizer.pt",
-        "md5": "f2cd44a3a39ca7eedb35f352678ada0b"
+        "link": "11356/1829/baseline_lemma_lemmatizer.zip",
+        "md5": "e3e536bd130c7e5266d8369bdd97ca84"
       },
       "nonstandard": {
-        "link": "11356/1352/hr_all_hrLex_lemmatizer.pt",
-        "md5": "af32f6197514048b3f4ae60cc0636c36"
+        "link": "11356/1827/baseline_lemma_lemmatizer.zip",
+        "md5": "feb5c385ab45b4d3de3c87c6d2980ff0"
+      },
+      "web": {
+        "duplicate": "nonstandard"
       }
     },
     "pos": {
       "standard": {
-        "link": "11356/1393/hr500k",
-        "md5": "61e7e97c217ff5063eebaf7cb0b6b86d",
+        "link": "11356/1832/baseline_pos.zip",
+        "md5": "f0005f703e9b779b33e94dae308735d1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -123,14 +132,17 @@
         ]
       },
       "nonstandard": {
-        "link": "11356/1331/hr_nstd",
-        "md5": "638dfd4a13fbc62ffa24495a76dbf256",
+        "link": "11356/1826/baseline_pos.zip",
+        "md5": "b6bc6dba29c32d4de5efe0f76fd7d562",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "standard"
           }
         ]
+      },
+      "web": {
+        "duplicate": "nonstandard"
       }
     },
     "ner": {
@@ -141,12 +153,15 @@
       "nonstandard": {
         "link": "11356/1340/hr_nstd",
         "md5": "10f00c7aec9d0aef8fdc8f88a698e50e"
+      },
+      "web": {
+        "duplicate": "nonstandard"
       }
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1393/hr500k.pretrain.pt",
-        "md5": "fbce84682795cb0bfad7ed25b7817bbb"
+        "link": "11356/1826/hr_set.pretrain.zip",
+        "md5": "16acf403c89c67bf2d165c5732d05e8f"
       }
     },
     "default_processors": {
@@ -185,14 +200,14 @@
     },
     "lemma": {
       "standard": {
-        "link": "11356/1374/mk_lemmatizer.pt",
-        "md5": "db8d4904e49862b642fa5e5f7f43cdba"
+        "link": "11356/1848/baseline_lemma_lemmatizer.zip",
+        "md5": "3642a3106b63bac86be702e073f02ae2"
       }
     },
     "pos": {
       "standard": {
-        "link": "11356/1395/mk",
-        "md5": "10e5032f17ad7f68ccd6b6fce72ba036",
+        "link": "11356/1847/baseline_pos.zip",
+        "md5": "4b8d3fb1be0003f37f35f8b5fda8a4bf",
         "dependencies": [
           {
             "model": "pretrain",
@@ -203,8 +218,8 @@
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1395/mk.pretrain.pt",
-        "md5": "9011c8159927ac47b77f46d8ec92e1c5"
+        "link": "11356/1847/mk_set.pretrain.zip",
+        "md5": "0251ad906f3b8b5522239a69c74fe34c"
       }
     },
     "default_processors": {
@@ -278,8 +293,8 @@
         "md5": "7bee44b91d1d06c74872f1fa4a3360f4"
       },
       "nonstandard": {
-        "link": "11356/1350/sl_all_Sloleks_lemmatizer.pt",
-        "md5": "e61a08002d7b4ed32989f5d860508121"
+        "link": "11356/1784/sl_nonstandard_lemmatizer.zip",
+        "md5": "0afa8fd07930bcf2c116e38ffdee55c6"
       },
       "standard_jos": {
         "duplicate": "standard"
@@ -300,8 +315,8 @@
         ]
       },
       "nonstandard": {
-        "link": "11356/1337/sl_nstd",
-        "md5": "2b1f6ca6521407b98689fc2a5b0cd626",
+        "link": "11356/1786/sl_nonstandard.zip",
+        "md5": "3073a4786ab5f1faece62f6707ee6646",
         "dependencies": [
           {
             "model": "pretrain",
@@ -386,12 +401,15 @@
       "nonstandard": {
         "library": "reldi",
         "type": "nonstandard"
+      },
+      "web": {
+        "duplicate": "standard"
       }
     },
     "depparse": {
       "standard": {
-        "link": "11356/1260/SETimes.SR_ud",
-        "md5": "631f720314f48e9b4ac9d6e7307577f3",
+        "link": "11356/1835/baseline_depparse.zip",
+        "md5": "1e3a2b8c96ced9ec8eb18200ba1738f9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -401,22 +419,28 @@
       },
       "nonstandard": {
         "duplicate": "standard"
+      },
+      "web": {
+        "duplicate": "standard"
       }
     },
     "lemma": {
       "standard": {
-        "link": "11356/1355/SETimes.SR_srLex_lemmatizer.pt",
-        "md5": "34ce317bf92b2dcedecd66bbe3faeaad"
+        "link": "11356/1830/baseline_lemma_lemmatizer.zip",
+        "md5": "83bc69ef1df6937ff3716cfe768a428c"
       },
       "nonstandard": {
-        "link": "11356/1351/sr_all_srLex_lemmatizer.pt",
-        "md5": "29895703bf35489f265b97c17092ec20"
+        "link": "11356/1828/baseline_lemma_lemmatizer.zip",
+        "md5": "6fa7c31a63db9f33e75e7fa6e010356f"
+      },
+      "web": {
+        "duplicate": "nonstandard"
       }
     },
     "pos": {
       "standard": {
-        "link": "11356/1392/SETimes.SR",
-        "md5": "03da180987d63489e1181aa4570da364",
+        "link": "11356/1831/baseline_pos.zip",
+        "md5": "1e39ab62f2f7a64e9b0f36a52f9e4cb0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -425,14 +449,17 @@
         ]
       },
       "nonstandard": {
-        "link": "11356/1332/sr_nstd",
-        "md5": "0e2581d9b85fba76e6707733abc18598",
+        "link": "11356/1825/baseline_pos.zip",
+        "md5": "61de879961ed6de401611f0a7d52aec2",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "standard"
           }
         ]
+      },
+      "web": {
+        "duplicate": "nonstandard"
       }
     },
     "ner": {
@@ -443,12 +470,15 @@
       "nonstandard": {
         "link": "11356/1341/sr_nstd",
         "md5": "abce33574b568e5822c902941f237c58"
+      },
+      "web": {
+        "duplicate": "nonstandard"
       }
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1392/SETimes.SR.pretrain.pt",
-        "md5": "66f773c8990f536b789cf2c8dba6b04f"
+        "link": "11356/1825/sr_set.pretrain.zip",
+        "md5": "25820e2d2ed4e330b3aafdd396534c9f"
       }
     },
     "default_processors": {
