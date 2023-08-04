@@ -316,7 +316,7 @@
       },
       "nonstandard": {
         "link": "11356/1786/sl_nonstandard.zip",
-        "md5": "3073a4786ab5f1faece62f6707ee6646",
+        "md5": "955e2ac477c8bce881b200da2c9c2303",
         "dependencies": [
           {
             "model": "pretrain",
