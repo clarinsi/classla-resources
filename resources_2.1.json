@@ -8,8 +8,8 @@
     },
     "depparse": {
       "standard": {
-        "link": "11356/1851/baseline_depparse.zip",
-        "md5": "33710ab7113a2d01bcd23160fc519d0e",
+        "link": "11356/1851/baseline_depparse",
+        "md5": "f97f7b487fbd20b875b84dfee4ac7b55",
         "dependencies": [
           {
             "model": "pretrain",
@@ -20,14 +20,14 @@
     },
     "lemma": {
       "standard": {
-        "link": "11356/1850/baseline_lemma_lemmatizer.zip",
-        "md5": "c410dcb4106f9db6908a37620b939d6b"
+        "link": "11356/1850/baseline_lemma_lemmatizer",
+        "md5": "c0bfebff83c2fe73dc612ac62877c511"
       }
     },
     "pos": {
       "standard": {
-        "link": "11356/1849/baseline_pos.zip",
-        "md5": "eddde984a5dab2edd63cf65a1fa03bc8",
+        "link": "11356/1849/baseline_pos",
+        "md5": "6e022040b4949bf7dbc7953db39ea187",
         "dependencies": [
           {
             "model": "pretrain",
@@ -44,8 +44,8 @@
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1849/bg_btb.pretrain.zip",
-        "md5": "a52081bd8e06e9342d75f63dc99c6343"
+        "link": "11356/1849/bg_btb.pretrain",
+        "md5": "1494c4c413871eb8de3e900effb65286"
       }
     },
     "default_processors": {
@@ -91,8 +91,8 @@
     },
     "depparse": {
       "standard": {
-        "link": "11356/1836/baseline_depparse.zip",
-        "md5": "6eb063786c4cddbcf2971e482361d87e",
+        "link": "11356/1836/baseline_depparse",
+        "md5": "2468485c0b7a4963a24afcd1ae01b939",
         "dependencies": [
           {
             "model": "pretrain",
@@ -109,12 +109,12 @@
     },
     "lemma": {
       "standard": {
-        "link": "11356/1829/baseline_lemma_lemmatizer.zip",
-        "md5": "4353fe5712bdd5bba46fb7e79d83aa8d"
+        "link": "11356/1829/baseline_lemma_lemmatizer",
+        "md5": "e3e536bd130c7e5266d8369bdd97ca84"
       },
       "nonstandard": {
-        "link": "11356/1827/baseline_lemma_lemmatizer.zip",
-        "md5": "0353914459b55a755c61867bdca6d399"
+        "link": "11356/1827/baseline_lemma_lemmatizer",
+        "md5": "feb5c385ab45b4d3de3c87c6d2980ff0"
       },
       "web": {
         "duplicate": "nonstandard"
@@ -122,8 +122,8 @@
     },
     "pos": {
       "standard": {
-        "link": "11356/1832/baseline_pos.zip",
-        "md5": "0dbefd95b263c269a5e01215f19112c9",
+        "link": "11356/1832/baseline_pos",
+        "md5": "f0005f703e9b779b33e94dae308735d1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -132,8 +132,8 @@
         ]
       },
       "nonstandard": {
-        "link": "11356/1826/baseline_pos.zip",
-        "md5": "f17f0c6ce30078994068ba9c9e0acd4a",
+        "link": "11356/1826/baseline_pos",
+        "md5": "b6bc6dba29c32d4de5efe0f76fd7d562",
         "dependencies": [
           {
             "model": "pretrain",
@@ -160,8 +160,8 @@
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1826/hr_set.pretrain.zip",
-        "md5": "5ac536bf4999b8df5a4f315377e31ed4"
+        "link": "11356/1826/hr_set.pretrain",
+        "md5": "16acf403c89c67bf2d165c5732d05e8f"
       }
     },
     "default_processors": {
@@ -200,14 +200,14 @@
     },
     "lemma": {
       "standard": {
-        "link": "11356/1848/baseline_lemma_lemmatizer.zip",
-        "md5": "d07d48e0c9f51c18a7c1e4d203c1fd50"
+        "link": "11356/1848/baseline_lemma_lemmatizer",
+        "md5": "3642a3106b63bac86be702e073f02ae2"
       }
     },
     "pos": {
       "standard": {
-        "link": "11356/1847/baseline_pos.zip",
-        "md5": "fc4bc72a3565e47c1156cb047e8d2432",
+        "link": "11356/1847/baseline_pos",
+        "md5": "4b8d3fb1be0003f37f35f8b5fda8a4bf",
         "dependencies": [
           {
             "model": "pretrain",
@@ -218,8 +218,8 @@
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1847/mk_set.pretrain.zip",
-        "md5": "1fb2adcdcf4132d55c4d392f148921d2"
+        "link": "11356/1847/mk_set.pretrain",
+        "md5": "0251ad906f3b8b5522239a69c74fe34c"
       }
     },
     "default_processors": {
@@ -293,8 +293,8 @@
         "md5": "7bee44b91d1d06c74872f1fa4a3360f4"
       },
       "nonstandard": {
-        "link": "11356/1784/sl_nonstandard_lemmatizer.zip",
-        "md5": "e67a65bdab19bba740384ec0a14b0499"
+        "link": "11356/1784/sl_nonstandard_lemmatizer",
+        "md5": "0afa8fd07930bcf2c116e38ffdee55c6"
       },
       "standard_jos": {
         "duplicate": "standard"
@@ -315,8 +315,8 @@
         ]
       },
       "nonstandard": {
-        "link": "11356/1786/sl_nonstandard.zip",
-        "md5": "955e2ac477c8bce881b200da2c9c2303",
+        "link": "11356/1786/sl_nonstandard",
+        "md5": "3073a4786ab5f1faece62f6707ee6646",
         "dependencies": [
           {
             "model": "pretrain",
@@ -408,8 +408,8 @@
     },
     "depparse": {
       "standard": {
-        "link": "11356/1835/baseline_depparse.zip",
-        "md5": "45bd99cea29e55c7cb4a7776275da1a3",
+        "link": "11356/1835/baseline_depparse",
+        "md5": "1e3a2b8c96ced9ec8eb18200ba1738f9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -426,12 +426,12 @@
     },
     "lemma": {
       "standard": {
-        "link": "11356/1830/baseline_lemma_lemmatizer.zip",
-        "md5": "dff623bccd5a136bb8a587c59367586b"
+        "link": "11356/1830/baseline_lemma_lemmatizer",
+        "md5": "83bc69ef1df6937ff3716cfe768a428c"
       },
       "nonstandard": {
-        "link": "11356/1828/baseline_lemma_lemmatizer.zip",
-        "md5": "b29f09c6ef31d221e07d8795f0da0f9c"
+        "link": "11356/1828/baseline_lemma_lemmatizer",
+        "md5": "6fa7c31a63db9f33e75e7fa6e010356f"
       },
       "web": {
         "duplicate": "nonstandard"
@@ -439,8 +439,8 @@
     },
     "pos": {
       "standard": {
-        "link": "11356/1831/baseline_pos.zip",
-        "md5": "63630c0d882181c90d35a638813c401f",
+        "link": "11356/1831/baseline_pos",
+        "md5": "1e39ab62f2f7a64e9b0f36a52f9e4cb0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -449,8 +449,8 @@
         ]
       },
       "nonstandard": {
-        "link": "11356/1825/baseline_pos.zip",
-        "md5": "110b613f6c8f0465731611a569918c07",
+        "link": "11356/1825/baseline_pos",
+        "md5": "61de879961ed6de401611f0a7d52aec2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -477,8 +477,8 @@
     },
     "pretrain": {
       "standard": {
-        "link": "11356/1825/sr_set.pretrain.zip",
-        "md5": "36982e1a8a4fcd253b79db98abd96633"
+        "link": "11356/1825/sr_set.pretrain",
+        "md5": "a541edfd42b26c9510d1abe6251d8644"
       }
     },
     "default_processors": {
