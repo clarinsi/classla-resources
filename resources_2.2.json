@@ -257,12 +257,15 @@
             },
             "web": {
                 "duplicate": "standard"
+            },
+            "spoken": {
+                "duplicate": "standard"
             }
         },
         "depparse": {
             "standard": {
-                "link": "11356/1769/suk_udsyn",
-                "md5": "eb5230b1be524ce422054a06d89f51f7",
+                "link": "11356/2015/depparse",
+                "md5": "8003b1d2eb3a117ca2577a5349c2c582",
                 "dependencies": [
                     {
                         "model": "pretrain",
@@ -285,6 +288,16 @@
             },
             "web": {
                 "duplicate": "standard"
+            },
+            "spoken": {
+                "link": "11356/2018/depparse",
+                "md5": "b526b26d0e9162a9f5300b81b1f636e1",
+                "dependencies": [
+                    {
+                        "model": "pretrain",
+                        "package": "standard"
+                    }
+                ]
             }
         },
         "lemma": {
@@ -301,6 +314,10 @@
             },
             "web": {
                 "duplicate": "nonstandard"
+            },
+            "spoken": {
+                "link": "11356/2017/lemma_lemmatizer",
+                "md5": "98360be3753b344b17b603074a772da7"
             }
         },
         "pos": {
@@ -329,12 +346,22 @@
             },
             "web": {
                 "duplicate": "nonstandard"
+            },
+            "spoken": {
+                "link": "11356/2016/pos",
+                "md5": "f1cfef091cc69958716ac4399b7c0588",
+                "dependencies": [
+                    {
+                        "model": "pretrain",
+                        "package": "standard"
+                    }
+                ]
             }
         },
         "ner": {
             "standard": {
-                "link": "11356/1321/ssj500k",
-                "md5": "3f5003e050962523985c2f90ef5cc3c8"
+                "link": "11356/2014/ner",
+                "md5": "ae6653d5b237d358cd671e73c66c7023"
             },
             "nonstandard": {
                 "link": "11356/1339/sl_nstd",
@@ -344,6 +371,9 @@
                 "duplicate": "standard"
             },
             "web": {
+                "duplicate": "nonstandard"
+            },
+            "spoken": {
                 "duplicate": "nonstandard"
             }
         },
